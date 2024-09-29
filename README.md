@@ -74,7 +74,7 @@ Para executar o aplicativo na versão web, siga os passos abaixo:
 4. **Execute o aplicativo** utilizando o seguinte comando:
 
    ```bash
-   flet run --web app.py
+   flet run --web main.py
    ```
 
 5. **Ou** apenas faça o passo **1** e **2**, depois faça o passo **4** tambem rodara o app.
