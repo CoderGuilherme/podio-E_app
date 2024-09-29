@@ -57,16 +57,29 @@ Para executar o aplicativo na versão web, siga os passos abaixo:
    cd <DIRETORIO_DO_PROJETO>
    ```
 
-3. **Execute o aplicativo** utilizando o seguinte comando:
+3. **Ative o ambiente virtual** criado na pasta do projeto. O comando pode variar dependendo do sistema operacional:
+
+   - **Windows**:
+
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+   - **Linux ou macOS**:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Execute o aplicativo** utilizando o seguinte comando:
 
    ```bash
    flet run --web app.py
    ```
 
-4. **Acesse o aplicativo** no seu navegador web em `http://localhost:8551`.
+5. **Ou** apenas faça o passo **1** e **2**, depois faça o passo **4** tambem rodara o app.
 
 ## Funcionalidades
 
 - Visualizar desafios propostos pela plataforma.
 - Marcar desafios como concluídos.
-
