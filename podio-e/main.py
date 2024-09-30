@@ -67,10 +67,10 @@ def main(page: Page):
             "cor": "#19376D",
             "desafio": "Promoção de Competições Ecológicas",
             "descricao": "Organizar corridas de carros elétricos que promovam sustentabilidade e conscientizem sobre energia limpa."
-        }
+        },
     ]
     tasks = Column(
-    height=400,
+    height=300,
     scroll='auto',)
 
     for i,item in enumerate(challenges):
@@ -171,11 +171,7 @@ def main(page: Page):
 
                  Text("TODAY'S CHALLENDS"),
                  Stack(
-                    controls=[
-                        tasks,
-                         FloatingActionButton(bottom=2,right=20,
-                        icon =  icons.ADD,on_click=lambda _: page.go('/create_task'))
-                ]
+                    controls=[tasks]
         )
             ],
         ),
